@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(to bottom, #ffdee9, #b5fffc); /* Gradasi warna pink ke biru muda */
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title-box {
+  text-align: center;
+  background: linear-gradient(to right, #ff6b6b, #ffd93d); /* Gradasi oranye ke kuning */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.title-box h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-box h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+input.form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+input.form-control:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #ff6b6b, #ffd93d);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #ffd93d, #ff6b6b);
+}
+
+.result-box {
+  display: inline-block;
+  background: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
